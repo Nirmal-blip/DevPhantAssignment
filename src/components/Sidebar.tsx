@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export function Sidebar() {
   return (
-    <div className="w-64 bg-[#ffff] min-h-screen flex flex-col">
+    <div className="w-64 bg-[#ffff] min-h-screen border-r border-[#d4d3d3] flex flex-col">
       {/* Header */}
       <div className="p-4 border-b border-gray-700 flex items-center gap-2">
         <div className="w-8 h-8 bg-[#e54545] rounded-lg flex items-center justify-center">
